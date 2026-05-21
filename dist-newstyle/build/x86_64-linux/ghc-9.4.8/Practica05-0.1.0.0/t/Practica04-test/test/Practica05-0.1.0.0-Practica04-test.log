@@ -15,193 +15,27 @@ Tests compSus
   rho.tau [✔]
   sigma.tau [✔]
 Tests unifica
-  Dos variables [✘]
-  Dos constantes iguales [✘]
-  Dos constantes distintas [✘]
-  Dos funciones con diferente nombre [✘]
-  Dos funciones con aridades distintas [✘]
-  Terminos unificables [✘]
-  Terminos unificables 2 [✘]
-  Terminos unificables 3 [✘]
-  Terminos NO unificables [✘]
-  Terminos NO unificables 2 [✘]
+  Dos variables [✔]
+  Dos constantes iguales [✔]
+  Dos constantes distintas [✔]
+  Dos funciones con diferente nombre [✔]
+  Dos funciones con aridades distintas [✔]
+  Terminos unificables [✔]
+  Terminos unificables 2 [✔]
+  Terminos unificables 3 [✔]
+  Terminos NO unificables [✔]
+  Terminos NO unificables 2 [✔]
 Tests unificaConj
-  Prueba w1 [✘]
-  Prueba w2 [✘]
-  Prueba w3 [✘]
-  Prueba w4 [✘]
-  Prueba w5 [✘]
-  Prueba w6 [✘]
-  Prueba w7 [✘]
-  Prueba w8 [✘]
+  Prueba w1 [✔]
+  Prueba w2 [✔]
+  Prueba w3 [✔]
+  Prueba w4 [✔]
+  Prueba w5 [✔]
+  Prueba w6 [✔]
+  Prueba w7 [✔]
+  Prueba w8 [✔]
 
-Failures:
-
-  src/Practica05.hs:49:11: 
-  1) Tests unifica Dos variables
-       uncaught exception: ErrorCall
-       Prelude.undefined
-       CallStack (from HasCallStack):
-         undefined, called at src/Practica05.hs:49:11 in main:Practica05
-
-  To rerun use: --match "/Tests unifica/Dos variables/" --seed 1056146910
-
-  src/Practica05.hs:49:11: 
-  2) Tests unifica Dos constantes iguales
-       uncaught exception: ErrorCall
-       Prelude.undefined
-       CallStack (from HasCallStack):
-         undefined, called at src/Practica05.hs:49:11 in main:Practica05
-
-  To rerun use: --match "/Tests unifica/Dos constantes iguales/" --seed 1056146910
-
-  src/Practica05.hs:49:11: 
-  3) Tests unifica Dos constantes distintas
-       uncaught exception: ErrorCall
-       Prelude.undefined
-       CallStack (from HasCallStack):
-         undefined, called at src/Practica05.hs:49:11 in main:Practica05
-
-  To rerun use: --match "/Tests unifica/Dos constantes distintas/" --seed 1056146910
-
-  src/Practica05.hs:49:11: 
-  4) Tests unifica Dos funciones con diferente nombre
-       uncaught exception: ErrorCall
-       Prelude.undefined
-       CallStack (from HasCallStack):
-         undefined, called at src/Practica05.hs:49:11 in main:Practica05
-
-  To rerun use: --match "/Tests unifica/Dos funciones con diferente nombre/" --seed 1056146910
-
-  src/Practica05.hs:49:11: 
-  5) Tests unifica Dos funciones con aridades distintas
-       uncaught exception: ErrorCall
-       Prelude.undefined
-       CallStack (from HasCallStack):
-         undefined, called at src/Practica05.hs:49:11 in main:Practica05
-
-  To rerun use: --match "/Tests unifica/Dos funciones con aridades distintas/" --seed 1056146910
-
-  src/Practica05.hs:49:11: 
-  6) Tests unifica Terminos unificables
-       uncaught exception: ErrorCall
-       Prelude.undefined
-       CallStack (from HasCallStack):
-         undefined, called at src/Practica05.hs:49:11 in main:Practica05
-
-  To rerun use: --match "/Tests unifica/Terminos unificables/" --seed 1056146910
-
-  src/Practica05.hs:49:11: 
-  7) Tests unifica Terminos unificables 2
-       uncaught exception: ErrorCall
-       Prelude.undefined
-       CallStack (from HasCallStack):
-         undefined, called at src/Practica05.hs:49:11 in main:Practica05
-
-  To rerun use: --match "/Tests unifica/Terminos unificables 2/" --seed 1056146910
-
-  src/Practica05.hs:49:11: 
-  8) Tests unifica Terminos unificables 3
-       uncaught exception: ErrorCall
-       Prelude.undefined
-       CallStack (from HasCallStack):
-         undefined, called at src/Practica05.hs:49:11 in main:Practica05
-
-  To rerun use: --match "/Tests unifica/Terminos unificables 3/" --seed 1056146910
-
-  src/Practica05.hs:49:11: 
-  9) Tests unifica Terminos NO unificables
-       uncaught exception: ErrorCall
-       Prelude.undefined
-       CallStack (from HasCallStack):
-         undefined, called at src/Practica05.hs:49:11 in main:Practica05
-
-  To rerun use: --match "/Tests unifica/Terminos NO unificables/" --seed 1056146910
-
-  src/Practica05.hs:49:11: 
-  10) Tests unifica Terminos NO unificables 2
-       uncaught exception: ErrorCall
-       Prelude.undefined
-       CallStack (from HasCallStack):
-         undefined, called at src/Practica05.hs:49:11 in main:Practica05
-
-  To rerun use: --match "/Tests unifica/Terminos NO unificables 2/" --seed 1056146910
-
-  src/Practica05.hs:58:15: 
-  11) Tests unificaConj Prueba w1
-       uncaught exception: ErrorCall
-       Prelude.undefined
-       CallStack (from HasCallStack):
-         undefined, called at src/Practica05.hs:58:15 in main:Practica05
-
-  To rerun use: --match "/Tests unificaConj/Prueba w1/" --seed 1056146910
-
-  src/Practica05.hs:58:15: 
-  12) Tests unificaConj Prueba w2
-       uncaught exception: ErrorCall
-       Prelude.undefined
-       CallStack (from HasCallStack):
-         undefined, called at src/Practica05.hs:58:15 in main:Practica05
-
-  To rerun use: --match "/Tests unificaConj/Prueba w2/" --seed 1056146910
-
-  src/Practica05.hs:58:15: 
-  13) Tests unificaConj Prueba w3
-       uncaught exception: ErrorCall
-       Prelude.undefined
-       CallStack (from HasCallStack):
-         undefined, called at src/Practica05.hs:58:15 in main:Practica05
-
-  To rerun use: --match "/Tests unificaConj/Prueba w3/" --seed 1056146910
-
-  src/Practica05.hs:58:15: 
-  14) Tests unificaConj Prueba w4
-       uncaught exception: ErrorCall
-       Prelude.undefined
-       CallStack (from HasCallStack):
-         undefined, called at src/Practica05.hs:58:15 in main:Practica05
-
-  To rerun use: --match "/Tests unificaConj/Prueba w4/" --seed 1056146910
-
-  src/Practica05.hs:58:15: 
-  15) Tests unificaConj Prueba w5
-       uncaught exception: ErrorCall
-       Prelude.undefined
-       CallStack (from HasCallStack):
-         undefined, called at src/Practica05.hs:58:15 in main:Practica05
-
-  To rerun use: --match "/Tests unificaConj/Prueba w5/" --seed 1056146910
-
-  src/Practica05.hs:58:15: 
-  16) Tests unificaConj Prueba w6
-       uncaught exception: ErrorCall
-       Prelude.undefined
-       CallStack (from HasCallStack):
-         undefined, called at src/Practica05.hs:58:15 in main:Practica05
-
-  To rerun use: --match "/Tests unificaConj/Prueba w6/" --seed 1056146910
-
-  src/Practica05.hs:58:15: 
-  17) Tests unificaConj Prueba w7
-       uncaught exception: ErrorCall
-       Prelude.undefined
-       CallStack (from HasCallStack):
-         undefined, called at src/Practica05.hs:58:15 in main:Practica05
-
-  To rerun use: --match "/Tests unificaConj/Prueba w7/" --seed 1056146910
-
-  src/Practica05.hs:58:15: 
-  18) Tests unificaConj Prueba w8
-       uncaught exception: ErrorCall
-       Prelude.undefined
-       CallStack (from HasCallStack):
-         undefined, called at src/Practica05.hs:58:15 in main:Practica05
-
-  To rerun use: --match "/Tests unificaConj/Prueba w8/" --seed 1056146910
-
-Randomized with seed 1056146910
-
-Finished in 0.0093 seconds
-29 examples, 18 failures
-Test suite Practica04-test: FAIL
+Finished in 0.0019 seconds
+29 examples, 0 failures
+Test suite Practica04-test: PASS
 Test suite logged to: /home/xiro/Documentos/2026/4to semestre/LoComp/haskellPractice/LC2026-2-Practica05/dist-newstyle/build/x86_64-linux/ghc-9.4.8/Practica05-0.1.0.0/t/Practica04-test/test/Practica05-0.1.0.0-Practica04-test.log
